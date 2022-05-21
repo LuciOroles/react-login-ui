@@ -1,6 +1,9 @@
 {
-  "name": "react-login",
-  "version": "1.0.0",
+  "name": "@LuciOroles/react-login-ui",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/lucioroles"
+  },
+  "version": "1.0.2",
   "description": "",
   "scripts": {
     "rollup": "rollup -c"
@@ -17,8 +20,10 @@
     "@rollup/plugin-commonjs": "^21.0.3",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "@rollup/plugin-typescript": "^8.3.1",
+    "postcss": "^8.4.12",
     "rollup": "^2.70.1",
     "rollup-plugin-dts": "^4.2.0",
+    "rollup-npm": "^4.0.2",
     "tslib": "^2.3.1"
   },
   "main": "dist/cjs/index.js",
